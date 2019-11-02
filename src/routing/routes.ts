@@ -1,0 +1,9 @@
+export const LOGIN = '/login';
+export const PROFILE = '/profile';
+export const PROFILE_EDIT = '/profile/edit';
+export const MEMORIES = '/memories';
+export const MEMORIES_DRAFT = '/memories/draft';
+export const ADD_MEMORY = '/memory/add';
+export const EDIT_MEMORY = '/memory/:id';
+export const FRIENDS = '/friends';
+export const USERS = '/users';
