@@ -2,29 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9747efc4-1daa-4270-a769-b15c90e038a2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/webResources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/form/Form/Form.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/form/ImageField.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/form/TextField.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/layout/MainLayout/MainLayout.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/Login/Login.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/Login/Login.types.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/Memories/Add/AddMemoryContainer.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/Memories/Form/MemoryForm.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/Memories/Form/MemoryForm.types.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/Profile/Profile.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/routing/Routing.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/routing/routes.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.test.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tsconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/tsconfig.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/Login/Login.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Login/Login.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/routing/Routing.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/routing/Routing.tsx" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -67,6 +47,10 @@
     <property name="ts.external.directory.path" value="C:\Users\aleks\Documents\friendship-diary\node_modules\typescript\lib" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\aleks\Documents\friendship-diary" />
+      <recent name="C:\Users\aleks\Documents\friendship-diary\src\requests\auth" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\aleks\Documents\friendship-diary\src\pages\Friends" />
       <recent name="C:\Users\aleks\Documents\friendship-diary\src\pages\Memories\List" />
@@ -114,8 +98,18 @@
       <workItem from="1571590772469" duration="2733000" />
       <workItem from="1572099513484" duration="9249000" />
       <workItem from="1572183220948" duration="2905000" />
-      <workItem from="1572675304295" duration="9640000" />
+      <workItem from="1572675304295" duration="10252000" />
+      <workItem from="1572690282823" duration="2566000" />
+      <workItem from="1573324946038" duration="104000" />
     </task>
+    <task id="LOCAL-00001" summary="add all required pages">
+      <created>1572685952580</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1572685952580</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -133,5 +127,13 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
+    <option name="CHECK_NEW_TODO" value="false" />
+    <MESSAGE value="add all required pages" />
+    <option name="LAST_COMMIT_MESSAGE" value="add all required pages" />
+    <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
+    <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
 </project>

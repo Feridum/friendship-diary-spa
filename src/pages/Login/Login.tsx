@@ -5,13 +5,18 @@ import {TextField} from "../../components/form/TextField";
 import {LoginForm} from "./Login.types";
 import {useHistory} from "react-router";
 import {PROFILE} from "../../routing/routes";
+import {login} from "../../requests/auth/actions";
 
 
 export const Login: FC = () => {
     const history = useHistory();
 
     const handleSubmit = (value: LoginForm) => {
-        history.push(PROFILE);
+        login(value).then((a)=>{
+            console.log(a)
+            history.push(PROFILE);
+        })
+
     }
 
     return <Container maxWidth="sm">

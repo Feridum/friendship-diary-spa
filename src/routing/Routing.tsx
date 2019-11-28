@@ -1,7 +1,7 @@
 import * as Routes from './routes';
 import {Login} from "../pages/Login/Login";
 import React, {FC} from "react";
-import {HashRouter as Router, Redirect, Route, Switch} from 'react-router-dom'
+import {BrowserRouter as Router, Redirect, Route, Switch} from 'react-router-dom'
 import {Profile} from "../pages/Profile/Profile";
 import {AddMemoryContainer} from "../pages/Memories/Add/AddMemoryContainer";
 import {ProfileFormContainer} from "../pages/Profile/ProfileForm/ProfileFormContainer";
