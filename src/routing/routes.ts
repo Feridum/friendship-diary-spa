@@ -1,4 +1,5 @@
 export const LOGIN = '/login';
+export const REGISTER = '/register';
 export const PROFILE = '/profile';
 export const PROFILE_EDIT = '/profile/edit';
 export const MEMORIES = '/memories';

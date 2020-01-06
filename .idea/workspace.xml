@@ -2,11 +2,31 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9747efc4-1daa-4270-a769-b15c90e038a2" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.env" beforeDir="false" afterPath="$PROJECT_DIR$/.env" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/form/TextField.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/form/TextField.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/Friends/FriendsContainer.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Friends/FriendsContainer.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pages/Login/Login.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Login/Login.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/Memories/Add/AddMemoryContainer.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Memories/Add/AddMemoryContainer.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/Memories/Form/MemoryForm.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Memories/Form/MemoryForm.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/Memories/Form/MemoryForm.types.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Memories/Form/MemoryForm.types.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/Memories/List/DraftListContainer.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Memories/List/DraftListContainer.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/Memories/List/ListContainer.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Memories/List/ListContainer.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/Memories/List/SingleMemory/SingleMemory.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Memories/List/SingleMemory/SingleMemory.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/Memories/List/SingleMemory/SingleMemory.types.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Memories/List/SingleMemory/SingleMemory.types.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/Users/User/User.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Users/User/User.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/Users/User/User.types.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Users/User/User.types.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/Users/UsersContainer.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Users/UsersContainer.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/requests/auth/actions.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/requests/auth/actions.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/requests/common/Request.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/requests/common/Request.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/requests/friends/actions.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/requests/friends/actions.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/requests/memories/actions.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/requests/memories/actions.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/requests/users/users.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/requests/users/users.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/routing/Routing.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/routing/Routing.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/routing/routes.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/routing/routes.ts" afterDir="false" />
     </list>
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -21,6 +41,11 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="JsFlowSettings">
@@ -31,10 +56,16 @@
   </component>
   <component name="ProjectId" id="1STKAPNl4ehOLEl1YlF38CFLEAt" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/pages/Friends" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/pages/Memories" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -44,30 +75,21 @@
     <property name="nodejs_interpreter_path" value="node" />
     <property name="nodejs_package_manager_path" value="yarn" />
     <property name="settings.editor.selected.configurable" value="preferences.sourceCode.TypeScript" />
-    <property name="ts.external.directory.path" value="C:\Users\aleks\Documents\friendship-diary\node_modules\typescript\lib" />
+    <property name="ts.external.directory.path" value="D:\Repozytoria\friendship-diary-spa\node_modules\typescript\lib" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Repozytoria\friendship-diary-spa\src\pages" />
       <recent name="C:\Users\aleks\Documents\friendship-diary" />
       <recent name="C:\Users\aleks\Documents\friendship-diary\src\requests\auth" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Repozytoria\friendship-diary-spa\src\pages\Memories" />
+      <recent name="D:\Repozytoria\friendship-diary-spa\src\pages\Register" />
+      <recent name="D:\Repozytoria\friendship-diary-spa\src\pages" />
       <recent name="C:\Users\aleks\Documents\friendship-diary\src\pages\Friends" />
       <recent name="C:\Users\aleks\Documents\friendship-diary\src\pages\Memories\List" />
-      <recent name="C:\Users\aleks\Documents\friendship-diary\src\components\form" />
     </key>
-  </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
   </component>
   <component name="RunManager" selected="npm.npm start">
     <configuration name="Debug Application" type="JavascriptDebugType" uri="http://localhost:3000">
@@ -83,6 +105,18 @@
       <envs />
       <method v="2" />
     </configuration>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -101,6 +135,11 @@
       <workItem from="1572675304295" duration="10252000" />
       <workItem from="1572690282823" duration="2566000" />
       <workItem from="1573324946038" duration="104000" />
+      <workItem from="1576931333147" duration="1199000" />
+      <workItem from="1576948715932" duration="24000" />
+      <workItem from="1578123888990" duration="794000" />
+      <workItem from="1578126505345" duration="5246000" />
+      <workItem from="1578312644683" duration="9699000" />
     </task>
     <task id="LOCAL-00001" summary="add all required pages">
       <created>1572685952580</created>
@@ -135,5 +174,19 @@
     <option name="LAST_COMMIT_MESSAGE" value="add all required pages" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="690" y="268" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1578322517499">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="690" y="268" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1578322517499" />
+    <state x="679" y="219" key="#npm_start" timestamp="1578126514782">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="679" y="219" key="#npm_start/0.0.1920.1040@0.0.1920.1040" timestamp="1578126514782" />
+    <state width="498" height="446" key="SwitcherDM" timestamp="1578326556963">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="498" height="446" key="SwitcherDM/0.0.1920.1040@0.0.1920.1040" timestamp="1578326556963" />
   </component>
 </project>

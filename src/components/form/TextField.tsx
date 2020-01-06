@@ -16,11 +16,12 @@ export const TextField: FC<TextFieldProps> = ({name, type = 'text', label = ''})
 
                 return (
                     <FormControl error={isError}>
-                        <InputLabel htmlFor="adornment-password">{label}</InputLabel>
+                        <InputLabel htmlFor="adornment-password">{label ? label : name}</InputLabel>
                         <Input
                             type={type}
                             value={value}
                             onChange={onChange}
+                            placeholder={name}
                         />
                         <FormHelperText id="component-error-text">{isError && meta.error}</FormHelperText>
                     </FormControl>

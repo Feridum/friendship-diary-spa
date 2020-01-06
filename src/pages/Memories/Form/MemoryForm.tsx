@@ -23,7 +23,7 @@ const useStyles = makeStyles({
 ;
 
 
-export const MemoryForm: FC<MemoryFormProps> = ({initialValues, onCancel, onDraftSave, onSave}) => {
+export const MemoryForm: FC<MemoryFormProps> = ({initialValues, onCancel, onDraftSave, onSave, friendsOptions}) => {
     const classes = useStyles();
 
     const handleSubmit = (values: MemoryFormValues) => {
@@ -36,6 +36,7 @@ export const MemoryForm: FC<MemoryFormProps> = ({initialValues, onCancel, onDraf
 
     return (
         <MainLayout>
+            {initialValues &&
             <Form<MemoryFormValues>
                 onSubmit={handleSubmit}
                 initialValues={initialValues}
@@ -78,7 +79,7 @@ export const MemoryForm: FC<MemoryFormProps> = ({initialValues, onCancel, onDraf
                                         <Autocomplete
                                             name='friends'
                                             placeholder='Wybierz przyjaciół z którymi dzielisz wspomnienie'
-                                            options={['test', 'test2'].map(value => ({label: value, value}))}
+                                            options={friendsOptions}
                                             isMulti={true}
                                         />
                                     </Box>
@@ -100,6 +101,7 @@ export const MemoryForm: FC<MemoryFormProps> = ({initialValues, onCancel, onDraf
                     )
                 }}
             </Form>
+            }
         </MainLayout>
     )
 }

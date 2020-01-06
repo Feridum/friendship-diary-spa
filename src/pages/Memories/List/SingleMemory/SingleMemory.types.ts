@@ -5,14 +5,13 @@ export interface SingleMemoryProps {
 }
 
 export interface SingleMemory {
-    uuid: string
+    id: string
     image: string
     title: string
     description: string
     friends: string[]
     localization: {
-        lat: string;
-        lng: string;
+        latitude: number;
+        longitude: number;
     }
-
 }
