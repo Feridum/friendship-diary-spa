@@ -6,6 +6,9 @@ const useStyles = makeStyles({
         itemActions: {
             display: 'flex'
         },
+        row: {
+            padding: 10
+        }
     })
 ;
 
@@ -16,20 +19,20 @@ export const User: FC<UserProps> = ({user, action, actionType}) => {
     return (
         <Box mt={2}>
             <Paper>
-                <Grid container direction='row'>
+                <Grid container direction='row' justify='space-between' className={classes.row}>
                     <Grid item xs={8} sm={8}>
                         <Typography variant="h6">
-                            Title
+                            {`${user.firstname} ${user.lastname}`}
                         </Typography>
                     </Grid>
-                    <Grid item alignItems='center' className={classes.itemActions}>
+                    <Grid item className={classes.itemActions}>
                         <Button
                             variant="contained"
                             color={actionType}
-                            onClick={() => action(user.uuid)}
+                            onClick={() => action(user.username)}
                             size='small'
                         >
-                            Edytuj
+                            Dodaj do przyjaciół
                         </Button>
                     </Grid>
                 </Grid>

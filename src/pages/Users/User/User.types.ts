@@ -6,7 +6,7 @@ export interface UserProps {
 
 
 export interface User {
-    uuid: string;
+    username: string;
     firstname: string;
     lastname: string;
 }
