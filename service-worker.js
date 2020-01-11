@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/friendship-diary-spa/precache-manifest.4f8e1a830391d5f91215ce61fe81f10f.js"
+  "/friendship-diary-spa/precache-manifest.58680ea5272177ff4bfff1e4582d2186.js"
 );
 
 self.addEventListener('message', (event) => {

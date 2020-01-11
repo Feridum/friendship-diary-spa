@@ -1,21 +1,21 @@
 {
   "files": {
     "main.css": "/friendship-diary-spa/static/css/main.69eda509.chunk.css",
-    "main.js": "/friendship-diary-spa/static/js/main.912937a4.chunk.js",
-    "main.js.map": "/friendship-diary-spa/static/js/main.912937a4.chunk.js.map",
+    "main.js": "/friendship-diary-spa/static/js/main.d027e7f8.chunk.js",
+    "main.js.map": "/friendship-diary-spa/static/js/main.d027e7f8.chunk.js.map",
     "runtime-main.js": "/friendship-diary-spa/static/js/runtime-main.5f687918.js",
     "runtime-main.js.map": "/friendship-diary-spa/static/js/runtime-main.5f687918.js.map",
-    "static/js/2.21cd6b4c.chunk.js": "/friendship-diary-spa/static/js/2.21cd6b4c.chunk.js",
-    "static/js/2.21cd6b4c.chunk.js.map": "/friendship-diary-spa/static/js/2.21cd6b4c.chunk.js.map",
+    "static/js/2.75437972.chunk.js": "/friendship-diary-spa/static/js/2.75437972.chunk.js",
+    "static/js/2.75437972.chunk.js.map": "/friendship-diary-spa/static/js/2.75437972.chunk.js.map",
     "index.html": "/friendship-diary-spa/index.html",
-    "precache-manifest.4f8e1a830391d5f91215ce61fe81f10f.js": "/friendship-diary-spa/precache-manifest.4f8e1a830391d5f91215ce61fe81f10f.js",
+    "precache-manifest.58680ea5272177ff4bfff1e4582d2186.js": "/friendship-diary-spa/precache-manifest.58680ea5272177ff4bfff1e4582d2186.js",
     "service-worker.js": "/friendship-diary-spa/service-worker.js",
     "static/css/main.69eda509.chunk.css.map": "/friendship-diary-spa/static/css/main.69eda509.chunk.css.map"
   },
   "entrypoints": [
     "static/js/runtime-main.5f687918.js",
-    "static/js/2.21cd6b4c.chunk.js",
+    "static/js/2.75437972.chunk.js",
     "static/css/main.69eda509.chunk.css",
-    "static/js/main.912937a4.chunk.js"
+    "static/js/main.d027e7f8.chunk.js"
   ]
 }
