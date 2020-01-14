@@ -12,8 +12,8 @@ const mapFormToPayload = (value: MemoryFormValues) => {
         ...value,
         friends: value.friends.map((friend) => friend.value),
         localization: {
-            latitude: value.localization && value.localization.lat.toString(),
-            longitude: value.localization && value.localization.lng.toString(),
+            latitude: value.localization && value.localization.lat,
+            longitude: value.localization && value.localization.lng,
         }
     }
 }

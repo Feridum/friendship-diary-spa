@@ -12,7 +12,7 @@ const useStyles = makeStyles({
     })
 ;
 
-export const User: FC<UserProps> = ({user, action, actionType}) => {
+export const User: FC<UserProps> = ({user, action, actionType, actionLabel}) => {
 
     const classes = useStyles();
 
@@ -32,7 +32,7 @@ export const User: FC<UserProps> = ({user, action, actionType}) => {
                             onClick={() => action(user.username)}
                             size='small'
                         >
-                            Dodaj do przyjaciół
+                            {actionLabel}
                         </Button>
                     </Grid>
                 </Grid>

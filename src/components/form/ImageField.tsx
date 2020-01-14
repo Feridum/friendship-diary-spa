@@ -10,9 +10,10 @@ interface ImageFieldProps {
 const toBase64 = (file: Blob) => {
     const reader = new FileReader();
     return new Promise((resolve, reject) => {
-        reader.readAsDataURL(file);
+        reader.readAsBinaryString(file)
         reader.onload = async () => {
-            await resolve(reader.result)
+            if (reader.result)
+                await resolve(btoa(reader.result as string))
         };
         reader.onerror = error => reject(error);
     });
@@ -38,7 +39,7 @@ export const ImageField: FC<ImageFieldProps> = ({name, label}) => {
                     if (file && file.current) {
                         // @ts-ignore-next-line
                         const result = await toBase64(file.current.files[0]);
-
+                        console.log(result);
                         onChange(result);
                     }
                 };
@@ -49,7 +50,7 @@ export const ImageField: FC<ImageFieldProps> = ({name, label}) => {
                             {label}
                         </Typography>
                         <input type='file' onChange={handleFileUpload} ref={file}/>
-                        {value && <img src={value} className={classes.image}/>}
+                        {value && <img src={`data:image/png;base64,${value}`} className={classes.image}/>}
                         <FormHelperText id="component-error-text">{isError && meta.error}</FormHelperText>
                     </FormControl>
                 )

@@ -15,7 +15,7 @@ import {
 } from "@material-ui/core";
 import {AccountCircle, Inbox, Menu as MenuIcon} from '@material-ui/icons';
 import {useHistory} from "react-router-dom";
-import {ADD_MEMORY, FRIENDS, LOGIN, MEMORIES, MEMORIES_DRAFT, PROFILE, USERS} from "../../../routing/routes";
+import {ADD_MEMORY, FRIENDS, LOGIN, MEMORIES, MEMORIES_DRAFT, USERS} from "../../../routing/routes";
 
 const useStyles = makeStyles({
     root: {
@@ -36,8 +36,15 @@ export const MainLayout: FC = ({children}) => {
     };
 
     const handleIconClick = (e: any) => {
-        setAnchorEl(e.currentTarget);
         setMenuOpen(true)
+    };
+
+    const handleProfileClick = (e: any) => {
+        setAnchorEl(e.currentTarget);
+    }
+
+    const handleClose = () => {
+        setAnchorEl(null);
     };
 
     const MenuOptions = [
@@ -102,28 +109,21 @@ export const MainLayout: FC = ({children}) => {
                             aria-label="account of current user"
                             aria-controls="menu-appbar"
                             aria-haspopup="true"
-                            onClick={() => setProfileMenuOpen(true)}
+                            onClick={handleProfileClick}
                             color="inherit"
-                            ref={anchorEl}
                         >
                             <AccountCircle/>
                         </IconButton>
                         <Menu
-                            id="menu-appbar"
                             anchorEl={anchorEl}
-                            anchorOrigin={{
-                                vertical: 'top',
-                                horizontal: 'right',
-                            }}
-
-                            transformOrigin={{
-                                vertical: 'top',
-                                horizontal: 'right',
-                            }}
-                            open={isProfileMenuOpen}
-                            onClose={() => setProfileMenuOpen(false)}
+                            anchorOrigin={{vertical: 'top', horizontal: 'right'}}
+                            id={'menuId'}
+                            keepMounted
+                            transformOrigin={{vertical: 'top', horizontal: 'right'}}
+                            open={Boolean(anchorEl)}
+                            onClose={handleClose}
                         >
-                            <MenuItem onClick={() => history.push(PROFILE)}>Profil</MenuItem>
+                            {/*<MenuItem onClick={() => history.push(PROFILE)}>Profil</MenuItem>*/}
                             <MenuItem onClick={handleLogout}>Wyloguj</MenuItem>
                         </Menu>
                     </div>

@@ -4,28 +4,21 @@
     <list default="true" id="9747efc4-1daa-4270-a769-b15c90e038a2" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.env" beforeDir="false" afterPath="$PROJECT_DIR$/.env" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/form/TextField.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/form/TextField.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/form/ImageField.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/form/ImageField.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/layout/MainLayout/MainLayout.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/layout/MainLayout/MainLayout.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pages/Friends/FriendsContainer.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Friends/FriendsContainer.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pages/Login/Login.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Login/Login.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pages/Memories/Add/AddMemoryContainer.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Memories/Add/AddMemoryContainer.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pages/Memories/Form/MemoryForm.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Memories/Form/MemoryForm.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/Memories/Form/MemoryForm.types.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Memories/Form/MemoryForm.types.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/Memories/List/DraftListContainer.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Memories/List/DraftListContainer.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/Memories/List/ListContainer.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Memories/List/ListContainer.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pages/Memories/List/SingleMemory/SingleMemory.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Memories/List/SingleMemory/SingleMemory.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/Memories/List/SingleMemory/SingleMemory.types.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Memories/List/SingleMemory/SingleMemory.types.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/Register/Register.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Register/Register.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pages/Users/User/User.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Users/User/User.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pages/Users/User/User.types.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Users/User/User.types.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/Users/Users.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Users/Users.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/Users/Users.types.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Users/Users.types.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pages/Users/UsersContainer.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Users/UsersContainer.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/requests/auth/actions.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/requests/auth/actions.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/requests/common/Request.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/requests/common/Request.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/requests/friends/actions.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/requests/friends/actions.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/requests/memories/actions.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/requests/memories/actions.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/requests/users/users.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/requests/users/users.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/routing/Routing.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/routing/Routing.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/routing/routes.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/routing/routes.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -78,17 +71,17 @@
     <property name="ts.external.directory.path" value="D:\Repozytoria\friendship-diary-spa\node_modules\typescript\lib" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\Repozytoria\friendship-diary-spa\src\pages" />
-      <recent name="C:\Users\aleks\Documents\friendship-diary" />
-      <recent name="C:\Users\aleks\Documents\friendship-diary\src\requests\auth" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\Repozytoria\friendship-diary-spa\src\pages\Memories" />
       <recent name="D:\Repozytoria\friendship-diary-spa\src\pages\Register" />
       <recent name="D:\Repozytoria\friendship-diary-spa\src\pages" />
       <recent name="C:\Users\aleks\Documents\friendship-diary\src\pages\Friends" />
       <recent name="C:\Users\aleks\Documents\friendship-diary\src\pages\Memories\List" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Repozytoria\friendship-diary-spa\src\pages" />
+      <recent name="C:\Users\aleks\Documents\friendship-diary" />
+      <recent name="C:\Users\aleks\Documents\friendship-diary\src\requests\auth" />
     </key>
   </component>
   <component name="RunManager" selected="npm.npm start">
@@ -140,6 +133,9 @@
       <workItem from="1578123888990" duration="794000" />
       <workItem from="1578126505345" duration="5246000" />
       <workItem from="1578312644683" duration="9699000" />
+      <workItem from="1578686258036" duration="385000" />
+      <workItem from="1578729580294" duration="9982000" />
+      <workItem from="1579028856609" duration="616000" />
     </task>
     <task id="LOCAL-00001" summary="add all required pages">
       <created>1572685952580</created>
@@ -148,7 +144,14 @@
       <option name="project" value="LOCAL" />
       <updated>1572685952580</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="add library to deploy to gh pages">
+      <created>1578730927399</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1578730927399</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -171,7 +174,9 @@
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
     <MESSAGE value="add all required pages" />
-    <option name="LAST_COMMIT_MESSAGE" value="add all required pages" />
+    <MESSAGE value="connect with API" />
+    <MESSAGE value="add library to deploy to gh pages" />
+    <option name="LAST_COMMIT_MESSAGE" value="add library to deploy to gh pages" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
@@ -184,9 +189,29 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="679" y="219" key="#npm_start/0.0.1920.1040@0.0.1920.1040" timestamp="1578126514782" />
-    <state width="498" height="446" key="SwitcherDM" timestamp="1578326556963">
+    <state x="585" y="115" key="CommitChangelistDialog2" timestamp="1578730926737">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="498" height="446" key="SwitcherDM/0.0.1920.1040@0.0.1920.1040" timestamp="1578326556963" />
+    <state x="585" y="115" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1578730926737" />
+    <state width="498" height="446" key="SwitcherDM" timestamp="1578730990185">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="498" height="446" key="SwitcherDM/0.0.1920.1040@0.0.1920.1040" timestamp="1578730990185" />
+    <state x="552" y="242" key="Vcs.Push.Dialog.v2" timestamp="1578730930843">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="552" y="242" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1578730930843" />
+    <state x="656" y="252" width="607" height="536" key="find.popup" timestamp="1578730819365">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="656" y="252" width="607" height="536" key="find.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1578730819365" />
+    <state x="666" y="312" key="git4idea.merge.GitPullDialog" timestamp="1578730970987">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="666" y="312" key="git4idea.merge.GitPullDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1578730970987" />
+    <state x="616" y="240" key="run.anything.popup" timestamp="1578731000711">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="616" y="240" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1578731000711" />
   </component>
 </project>

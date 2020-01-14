@@ -94,7 +94,7 @@ export const MemoryForm: FC<MemoryFormProps> = ({initialValues, onCancel, onDraf
                                         Zapisz wersję roboczą
                                     </Button>
                                     <Button size="small" variant='contained' color='primary'
-                                            type="submit">Zapisz</Button>
+                                            type="submit">Opublikuj wspomnienie</Button>
                                 </div>
                             </CardActions>
                         </>

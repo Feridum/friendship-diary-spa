@@ -26,5 +26,6 @@ export const FriendsContainer: FC = () => {
         })
     })
 
-    return <Users action={deleteExistingFriend} actionType='secondary' users={friends}/>
+    return <Users action={deleteExistingFriend} actionType='secondary' users={friends}
+                  actionLabel={'Usuń ze znajomych'}/>
 }
