@@ -24,5 +24,5 @@ export const UsersContainer: FC = () => {
         history.push(FRIENDS);
     })
 
-    return <Users action={addNewFriend} actionType='primary' users={users}/>
+    return <Users action={addNewFriend} actionType='primary' users={users} actionLabel={'Dodaj do znajomych'}/>
 }

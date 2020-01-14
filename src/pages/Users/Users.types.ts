@@ -4,4 +4,5 @@ export interface UsersProps {
     users: User[];
     actionType: 'primary' | 'secondary',
     action: (id: string) => void;
+    actionLabel: string;
 }

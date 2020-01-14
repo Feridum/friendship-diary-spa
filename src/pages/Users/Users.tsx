@@ -4,11 +4,11 @@ import {UsersProps} from "./Users.types";
 import {User} from "./User/User";
 
 
-export const Users: FC<UsersProps> = ({users, actionType, action}) => {
+export const Users: FC<UsersProps> = ({users, actionType, action, actionLabel}) => {
 
     return (
         <MainLayout>
-            {users.map(user => (<User user={user} actionType={actionType} action={action}/>))}
+            {users.map(user => (<User user={user} actionType={actionType} action={action} actionLabel={actionLabel}/>))}
         </MainLayout>
     )
 }

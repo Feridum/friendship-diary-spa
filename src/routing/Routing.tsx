@@ -15,7 +15,7 @@ import {EditMemoryContainer} from "../pages/Memories/Edit/EditMemoryContainer";
 
 export const Routing: FC = () => {
     return (
-        <Router>
+        <Router basename={'/friendship-diary-spa'}>
             <Switch>
                 <Route exact path={Routes.LOGIN} component={Login}/>
                 <Route exact path={Routes.REGISTER} component={Register}/>
